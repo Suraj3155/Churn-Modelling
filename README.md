@@ -47,22 +47,39 @@ Matplotlib / Seaborn – data visualization
 Churn-Modelling/
 │
 ├── Churn_Modelling.csv            # Dataset
+
 ├── app.py                         # Main app (for running predictions)
+
 ├── streamlit_regression.py        # Streamlit web app
+
 │
+
 ├── experiments.ipynb              # Data analysis & model experiments
+
 ├── hyperparametertuningann.ipynb  # ANN hyperparameter tuning
+
 ├── salaryregression.ipynb         # Regression comparison (for salary prediction)
+
 ├── prediction.ipynb               # Testing predictions on sample inputs
+
 │
+
 ├── model.h5                       # Trained ANN model
+
 ├── regression_model.h5            # Regression model
+
 ├── scaler.pkl                     # StandardScaler used for normalization
+
 ├── label_encoder_gender.pkl       # Encoder for gender feature
+
 ├── onehot_encoder_geo.pkl         # Encoder for geography feature
+
 │
+
 ├── regressionlogs/fit/20251018-090651  # Training logs
+
 ├── requirements.txt               # Python dependencies
+
 └── README.md                      # (This file)
 
 ⚙️ How to Run the Project
@@ -70,6 +87,7 @@ Churn-Modelling/
 Clone the repository
 
 git clone https://github.com/Suraj3155/Churn-Modelling.git
+
 cd Churn-Modelling
 
 
